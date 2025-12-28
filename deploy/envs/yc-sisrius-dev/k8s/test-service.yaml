@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: test-nginx-service
+  namespace: edu-stanislav-hatylev
+spec:
+  selector:
+    app: test-web
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  type: ClusterIP
