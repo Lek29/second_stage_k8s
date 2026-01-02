@@ -95,3 +95,5 @@ kubectl apply -f deploy/envs/yc-sirius-dev/k8s/django-app.yaml
 2. Справа сверху иконка Logs.
 
 3. Весь путь ошибки (Traceback) будет там. Основные проблемы обычно в конце лога.
+
+URL - https://edu-stanislav-hatylev.yc-sirius-dev.pelid.team/admin/login/?next=/admin/
